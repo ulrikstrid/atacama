@@ -136,6 +136,11 @@
               ocamlformat
               dune-release
               odoc
+
+              # benchmarks
+              pkgs.go
+              pkgs.rustc
+              pkgs.cargo
             ];
           };
         };
